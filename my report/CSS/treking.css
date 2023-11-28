@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-nav {
+.navbar {
   background-color: #333;
   overflow: hidden;
   display: flex;
@@ -14,9 +14,15 @@ nav {
   margin: 10px auto;
   border-radius: 30px;
   height: 80px;
+  padding-left: 23px;
+  
 }
 
-nav a {
+.navoth {
+  display: flex;
+}
+
+.navoth a {
   color: white;
   text-align: center;
   padding: 24px 16px;
@@ -25,42 +31,39 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
+.navoth a:hover {
   background-color: #333;
+  color: #fff;
   transform: scale(1.1);
 }
 
-nav a img {
+.navbar a img {
   height: 60px;
   width: 180px;
-  margin-right: 8px;
 }
 
-nav a[href="#about"]:hover,
-nav a[href="#services"]:hover,
-nav a[href="#contact"]:hover,
-nav a[href="/Neptours/my report/html files/login.html"]:hover,
-nav a[href="/Neptours/my report/html files/Signup.html"]:hover {
-  background-color: #333;
-  transform: scale(1.1);
+.user {
+  display: flex;
 }
 
-nav a.login,
-nav a.signup {
+.user a.login,
+.user a.signup {
   margin-right: 16px;
   padding: 14px 30px;
   border-radius: 30px;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none; /* Remove underline */
 }
 
-nav a.login {
+.user a.login {
   background-color: white;
   color: #333;
 }
 
-nav a.signup {
+.user a.signup {
   background-color: #fc7c12;
 }
 
-nav a:active {
+.user a:active {
   font-size: 18px;
 }
