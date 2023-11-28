@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Montserrat',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 690px;
+    overflow: hidden;
+    background: url('/images/background-3104413_1280.jpg');
+    background-size: 130%;
+    
+    background-repeat: no-repeat;
+    
+    
+
+}
+
+.bgc{
+    width: 400px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    padding-top: 50px;
+ }
+
+.bgc h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+.bgc .input-box {
+    width: 500%;
+    height: 50px;
+    margin: 20px 0;
+ }
+
+.input-box input{
+    padding-left: 45px;
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(255, 255, 255 ,2);
+    border-radius: 40px;
+    font-size: 17px ;
+    color: #fff;
+}
+
+
+
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+
+    
+   
+
+
+.input-box i{
+    position: sticky; 
+    transform: translate(200%);
+    font-size: 20px;
+
+}
+input:focus{
+    border: 2px solid #898909
+}
+
+
+.bgc .forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5 px;
+    margin: -15px ;
+    margin-left: 230px;
+
+}
+
+.forget label input{
+    accent-color: #fff;
+    margin-right: 3px;
+
+}
+
+.forget a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.bgc .btn{
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px (0,0,0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 25px ;
+
+}
+.bgc .register{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a {
+    color: #000;
+    font-weight: 3000;
+}
