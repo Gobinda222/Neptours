@@ -5,11 +5,16 @@
     font-family: 'Nunto',sans-serif;
     padding: 0; margin: 0;    
     box-sizing: border-box;        
-    outline: none; border: none;
+    
     text-decoration: none;
-    transition: all.2s linear;
+    transition: all 0.8;
     box-sizing: border-box;
         
+}
+body{
+    background-image: url('/my report/images/bg\ for\ packages.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .selection h1{
@@ -17,20 +22,47 @@
     font-size: 40px;
     margin-top: 20px;
 }
-
+.selection h2{
+    padding: 3% 0 0 1%;
+}
 #image{
     margin: 4% 0 0 68%;
     position: absolute;
 }
 .category{
+    margin: 3% 0 0 12%;    
     display: flex;
     gap: 2%;
     cursor: pointer;
+    
 
 }
-.category .catbox{
-    background: aqua;
-    height: 30px;
-    width: 60px;
-   
+.catbox :hover{
+    color: #fff;
+    background: #12fcdd;
 }
+.category .catbox{
+    color: black;
+    backdrop-filter: blur(5px);
+    border: 3px solid #12fcdd;
+    height: 6vh;
+    width: 20vh;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 10px;   
+}
+.desc{
+    padding: 70px 0 0 60px;
+    font-size: 20px;
+
+}
+ul li{
+    padding-top: 10px;
+    list-style: disc;
+
+}
+.desc h3{
+    padding-top:50px ;
+}
+
